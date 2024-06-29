@@ -1,0 +1,867 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.contaner{
+    background-image: url(./menu-4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 800px;
+    position: relative;
+}
+.header{
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background: rgb(84 91 103 / 80%);
+    
+}
+span{
+    position: relative;
+   top: 20px;
+    font-style: bold;
+    font-size: xx-large;
+    color: rgb(203, 203, 12);
+}
+i{
+    position: relative;
+    top: 20px;
+    font-style: bold;
+    font-size: xx-large;
+    color: rgb(203, 203, 12);   
+}
+ul{
+  display: flex;
+ flex-direction: row;
+justify-content: end;
+gap: 20px;
+color: white;
+margin-right: 10px;
+}
+.header button{
+    color: white;
+    background-color:rgb(203, 203, 12) ;
+    border: none;
+    height: 30px;
+    border-radius: 20px;
+}
+.header button:hover{
+    color: black;
+    background-color:rgb(255, 255, 20) ;
+    border: none;
+    height: 40px;
+    border-radius: 20px;
+}
+.header ul li:hover{
+    color: rgb(203, 203, 12) ;
+    font-size: x-large;
+}
+#select{
+   background: transparent;
+   border: none;
+   color: white;
+
+}
+#select:hover{
+    color: rgb(203, 203, 12) ;
+    font-size: x-large;
+}
+ .contaner .header img{
+    position: relative;
+    left: 600px;
+    top: 50px;
+ }
+ .contaner .header h1{
+    color: white;
+    position: absolute;
+    top: 240px;
+    left: 10px;
+    font-style:oblique;
+ }
+ .contaner .header p{
+    color:white;
+    position: absolute;
+    top: 350px;
+
+ }
+ #btn{
+    color: white;
+    background-color:rgb(203, 203, 12) ;
+    border: none;
+    height: 30px;
+    width: 150px;
+    border-radius: 20px;
+    position: relative;
+   right: 550px;
+   bottom: 100px;
+   
+ }
+ #btn:hover{
+    background-color:rgb(255, 255, 20) ;
+    height: 30px;
+    width: 170px;
+color: #000;
+ }
+ .cards{
+   
+    width: 90%;
+  
+ }
+  .box{
+float: left;
+margin-left: 100px;  
+    
+
+  
+ } 
+ .card{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 10px;
+    margin:  40px auto;
+    transform-style: preserve-3d;
+    transition: 1s;
+ }
+ .card:hover{
+    transform: rotateX(180deg);
+ }
+ .c1::before{
+    content: "Master Cheft";
+    background-color: lightgrey;
+    color: rgb(18, 17, 17);
+   font-style: oblique;
+    width: 100%;
+    height: 100%;
+       position: absolute;
+    display: flex;
+    text-align: center;
+    align-items: center;
+ }
+ .c1::after{
+    content: "";
+    background-image: url(./about-1.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+
+    backface-visibility: hidden;
+    transform: rotateX(180deg);
+
+ }
+ .c2::before{
+
+    content: "Quality Food";
+    background-color: lightgrey;
+    color: rgb(18, 17, 17);
+   font-style: oblique;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    text-align: center;
+    align-items: center;
+ }
+ .c2::after{
+    content: "";
+    background-image: url(./about-3.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+
+    backface-visibility: hidden;
+    transform: rotateX(180deg);
+
+ }
+ .c3::before{
+
+    content: "On line Order";
+    background-color: lightgrey;
+    color: rgb(18, 17, 17);
+   font-style: oblique;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    text-align: center;
+    align-items: center;
+ }
+ .c3::after{
+    content: "";
+    background-image: url(./menu-8.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+
+    backface-visibility: hidden;
+    transform: rotateX(180deg);
+
+ }
+ .c4::before{
+
+    content: "24/7 Service";
+    background-color: lightgrey;
+    color: rgb(18, 17, 17);
+   font-style: oblique;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    text-align: center;
+    align-items: center;
+ }
+ .c4::after{
+    content: "";
+    background-image: url(./menu-1.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    
+
+    backface-visibility: hidden;
+    transform: rotateX(180deg);
+
+ }
+ .box i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   position: absolute;
+   
+ }
+ .About_us{
+    width: 600px;
+    height: 600px;
+ }
+ .image_3{
+  padding-bottom: 30px;
+  position: relative;
+  left: 100px;
+  top: 10px;
+  
+ }
+ .image_4{
+    margin-left: 320px;
+    position: relative;
+    bottom: 195px;
+   
+ }
+ .image_2{
+    position: relative;
+    left:20px;
+    
+ }
+ .About-Us{
+   margin-left: 700px;
+position: absolute;
+top: 1100px;
+
+ }
+ .About-Us span{
+   font-family:inherit;
+
+ }
+ .About-Us i{
+   position: relative;
+   top: 5px;
+ }
+ .About-Us span::after{
+   content: " ";
+  position: absolute;
+   background-color:  rgb(203, 203, 12) ;
+   width: 100px;
+   height: 4px;
+   top: 20px;
+   
+
+ }
+
+ .About-Us p{
+   font-size: x-large;
+   margin-top: 20px;
+   color:rgb(143, 139, 139);
+ }
+.About-Us button{
+   margin-top: 50px;
+   color: white;
+   background-color:rgb(203, 203, 12) ;
+   width: 150px;
+   height: 40px;
+   border: none;
+}
+.About-Us button:hover{
+   background-color:rgb(255, 255, 20) ;
+   height: 50px;
+   width: 170px;
+color: #000;
+}
+.About-us-2{
+   position:absolute;
+  left: 260px;
+  top: 400px;
+  
+}
+.About-us-2 span{
+position: relative;
+top: 10px;
+right: 20px;
+
+}
+.About-us-2{
+   font-size: xx-large;
+   
+}
+.About-us-1{
+   font-size: xx-large;
+   position: relative;
+   top: -5px;
+}
+
+.About-us-1 span{
+   position: relative;
+   top: 10px;
+   right: 20px;
+}
+.About-us-2 span::after{
+   content: "";
+   position: absolute;
+   width: 5px;
+   height: 100px;
+   background-color: rgb(203, 203, 12) ;
+   left: -15px;
+   top: 10px;
+
+}
+.About-us-1 span::after{
+   content: "";
+   position: absolute;
+   width: 5px;
+   height: 100px;
+   background-color: rgb(203, 203, 12) ;
+   left: -15px;
+   top: 5px;
+
+}
+ul li a{
+   text-decoration: none;
+   color: white;
+}
+ul li a:hover{
+   color: rgb(203, 203, 12) ;
+   font-size: x-large;
+}
+.FoodMenu{
+   position: absolute;
+   top:1800px;
+   left: 650px;
+}
+.FoodMenu p::after{
+   content: " ";
+   position: absolute;
+   background-color: rgb(203, 203, 12);
+   width: 70px;
+   height: 5px;
+
+}
+.FoodMenu p::before{
+   content: " ";
+   position: absolute;
+   background-color: rgb(203, 203, 12);
+   width: 70px;
+   height: 5px;
+ left: -70px;
+}
+.FoodMenu p{
+   color:rgb(203, 203, 12) ;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  position: relative;
+  left: -70px;
+}
+.FoodMenu h1{
+   font: 3em sans-serif;
+  position: relative;
+ left: -310px;
+
+
+}
+.logo-menue{
+  position: absolute;
+left: -150px;
+
+}
+.logo-menue span{
+   position: relative;
+   top:-30px;
+   right: -10px;
+   font-size: 20px;
+}
+.logo-menue i{
+   position: relative;
+   top: 10px;
+   font-size: 60px;
+}
+.logo-menue b{
+   position: relative;
+   top: 2px;
+   right: -90px;
+   color: darkgray;
+}
+
+.logo-menue-1{
+   position: relative;
+   right: 250px;
+   top: 70px;
+}
+.logo-menue-2{
+   position: absolute;
+   
+}
+.logo-menue-3{
+   position: relative;
+   right: -250px;
+   top: -10px;
+}
+.Menu{
+  position: relative;
+   width: 100%;
+   height: 600px;
+   top: 250px;
+   right: 400px;
+}
+.Menu-2{
+   position: relative;
+  left: 200px;
+  float: left;
+
+}
+.Menu-1{
+   position: relative;
+   
+  float: left;
+
+}
+.Menu span{
+   position: relative;
+   left: 200px;
+   top: 10px;
+}
+.Menu img{
+   position: relative;
+   top: 10px;
+}
+.Menu h5{
+   color: darkgray;
+}
+.Menu h4{
+   position: relative;
+   top: 50px;
+   font-style: oblique;
+
+}
+.Restoran{
+   position: absolute;
+   
+}
+.image{
+   height: 500px;
+   position: relative;
+   top: 2000px;
+  
+}
+form{
+   position: relative;
+   top: 1500px;
+left: 100%;
+height: 500px;
+width: 500px;
+border-style: solid;
+background-color: rgb(40, 35, 76);
+}
+form input{
+   position: relative;
+   top: 30px;
+  width: 220px;
+  height: 60px;
+  left: 30px;
+}
+form select{
+   position: relative;
+   top: 30px;
+   width: 220px;
+   height: 60px;
+   left: 30px;
+}
+form #Book{
+   position: relative;
+   top: 100px;
+   width: 400px;
+   background-color: rgb(203, 203, 12) ;
+   border: none;
+   font-size: x-large;
+
+}
+form #Book:hover{
+   width: 400px;
+   color: white;
+   background-color:rgb(255, 255, 20) ;
+   font-size: xx-large;
+}
+form span::after{
+   position: absolute;
+   content: "";
+   width: 100px;
+   height: 3px;
+   top: 15px;
+   background-color:rgb(203, 203, 12) ;
+}
+form span{
+   position: relative;
+   left: 130px;
+   font-style: oblique;
+}
+form h1{
+   color: white;
+   position: relative;
+   left: 100px;
+}
+.image i{
+   position:absolute;
+  font-size: 70px;
+ padding-top: 250px;
+ padding-left: 250px;
+}
+#Special-Request{
+  width: 400px;
+  position: relative;
+top: 40px;
+}
+.Team-menue{
+   position: absolute;
+ width: 100%;
+ height: 500px;
+
+}
+.Team-menue p{
+   position: relative;
+   top: 2500px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+  color: rgb(203, 203, 12);
+  font: 2em sans-serif;
+}
+.Team-menue h1{
+   position: relative;
+   top: 2500px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Chefs{
+  width: 1150px;
+  height: 300px;
+   position:relative;
+   top: 2500px;
+   display: flex;
+   justify-content: space-between;
+   animation: animate 2s 1s infinite ;
+}
+.Chefs img{
+   border-radius: 50%;
+   position: relative;
+   left: 20px;
+   top: 10px;
+}
+.Chef-1{
+   width: 250px;
+   height: 300px;
+   background-color: lightgray;
+   display: inline-block;
+  position: relative;
+ animation: animate-1 4s 2s infinite ;
+transform: translateY(10px);
+transition-duration: 4s;
+transition-delay: 4s;
+transition-timing-function: 4s;
+}
+.Chef-2{
+   width: 250px;
+   height: 300px;
+   background-color: lightgray;
+   display: inline-block;
+  position: relative;
+ animation: animate-2 4s 2s infinite ;
+ transform: translateY(10px);
+transition-duration: 4s;
+transition-delay: 12s;
+}
+  
+
+.Chef-3{
+   width: 250px;
+   height: 300px;
+   background-color: lightgray;
+   display: inline-block;
+  position: relative;
+ transition-timing-function: linear;
+ animation: animate-3 4s 2s infinite ;
+ transform: translateY(10px);
+transition-duration: 4s;
+transition-delay: 8s;
+}
+
+.Chef-4{
+   width: 250px;
+   height: 300px;
+   background-color: lightgray;
+   display: inline-block;
+  position: relative;
+ transition-timing-function: linear;
+ animation: animate-4 4s 2s infinite ;
+ transform: translateY(10px);
+transition-duration: 4s;
+transition-delay: 4s;
+}
+  
+.Team-menue p::after{
+   content: " ";
+   position: absolute;
+   background-color: rgb(203, 203, 12);
+   width: 70px;
+   height: 5px;
+  right: 430px;
+
+}
+.Team-menue p::before{
+   content: " ";
+   position: absolute;
+   background-color: rgb(203, 203, 12);
+   width: 70px;
+   height: 5px;
+ left: 430px;
+}
+.Chefs h5{
+   color: rgb(114, 112, 112);
+   font-style: oblique;
+}
+@keyframes animate-1{
+ from{
+   transform: translatey(0px);
+   transition-duration: 2s;
+}
+to{
+   transform: translateY(20px);
+
+   transition-duration: 12s;
+   transition-delay: 12s;
+   -o-transition-property: all;
+}
+
+}
+@keyframes animate-2{
+   from{
+     transform: translatey(0px);
+     transition-duration: 4s;
+  }
+  to{
+     transform: translateY(40px);
+    
+     transition-duration: 12s;
+   transition-delay: 10s;
+   -o-transition-property: all;
+  }
+  
+  }
+  @keyframes animate-3{
+   from{
+     transform: translatey(0px);
+     transition-duration: 2s;
+  }
+  to{
+  transform: translateY(60px);
+  
+     transition-duration: 12s;
+   transition-delay: 8s;
+   -o-transition-property: all;
+  }
+  
+  }
+  @keyframes animate-4{
+   from{
+     transform: translatey(0px);
+     transition-duration: 2s;
+  }
+  to{
+     transform: translateY(80px);
+     -o-transition-property: all;
+     transition-duration: 10s;
+     transition-delay: 6s;
+   
+  }
+  
+  }
+  .Testimanial{
+   width: 100%;
+   height: 300px;
+   position: absolute;
+  }
+  .Card-1{
+   position: relative;
+   width: 300px;
+   height: 200px;
+   background-color:white;
+  }
+  .Card-1:hover{
+   background-color:rgb(228, 228, 8);
+  }
+  .Card-2{
+   position: relative;
+   width: 300px;
+   height: 200px;
+   background-color: white;
+  }
+  .Card-2:hover{
+   background-color: rgb(228, 228, 8);
+  }
+  .Card-3:hover{
+   background-color:rgb(228, 228, 8);
+  }
+
+  .Card-3{
+   position: relative;
+   width: 300px;
+   height: 200px;
+   background-color:white;
+  }
+  .client-name{
+   position: relative;
+   top: 2500px;
+   display: flex;
+   justify-content: space-between;
+   color: rgb(90, 86, 86);
+  }
+  .client-name img{
+   border-radius: 50%;
+  }
+  .client-name b{
+   position: relative;
+   color:darkgrey;
+   top: -30px;
+  }
+  footer{
+   position: absolute;
+   top: 3400px;
+   background-color: rgb(40, 35, 76);
+   width: 100%;
+   height: 450px;
+  }
+  .last{
+   width: 100%;
+   height:400px ;
+   position: absolute;
+  display: flex;
+  justify-content: space-around;
+
+  }
+  .last span::after{
+position: absolute;
+content: "";
+width: 70px;
+height: 2px;
+top: 10px;
+background-color:rgb(203, 203, 12) ;
+
+  }
+  .last span{
+   font-size: large;
+   font-style: initial;
+  }
+  .company h6{
+   color: white;
+   font-size: 16px;
+   font-style: oblique;
+
+  }
+  .company i{
+  font-size: large;
+ position: relative;
+color:white;
+left: -10px;
+top: 5px;
+  }
+  .client-name i{
+   position: relative;
+   top: -5px;
+
+  }
+  .client-name h5{
+   position: absolute;
+   left: 100px;
+   bottom: 2px;
+  }
+  .contact h6{
+   color: white;
+   font-size: 16px;
+   font-style: oblique;
+  }
+  .contact i{
+  color: white;
+  position: relative;
+  left:-40px;
+  top: -60px;
+  
+  }
+  .icons{
+   position: relative;
+   top: 40px;
+  }
+  .opening h6{
+   color: white;
+   font-size: 16px;
+   font-style: oblique;
+  }
+ .New-letter h6{
+   color: white;
+   font-size: 15px;
+ }
+ .email{
+   width: 300px;
+   height: 80px;
+   border-style: solid;
+   background-color: white;
+ }
+ .email{
+   position: relative;
+  font-style: oblique;
+  color: rgb(139, 136, 136);
+ }
+ .email button{
+   position: relative;
+   top: 40px;
+   left: 100px;
+   width: 70px;
+   height: 30px;
+border: none;
+border-radius: 10% ;
+background-color: rgb(203, 203, 12);
+ }
+ h3{
+   position: absolute;
+  top: 400px;
+  
+  color: #868080;
+ }
